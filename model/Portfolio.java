@@ -3,7 +3,7 @@ package com.bit.devops12.poro.model;
 import java.time.LocalDateTime;
 
 public class Portfolio {
-    private Long portfolioId;
+    private int portfolioId;
     private int userId;
     private String portfolioUrl;
     private String thumbnailUrl;
@@ -11,11 +11,11 @@ public class Portfolio {
     private LocalDateTime regdate;
     private LocalDateTime moddate;
 
-    public Long getPortfolioId() {
+    public int getPortfolioId() {
         return portfolioId;
     }
 
-    public void setPortfolioId(Long portfolioId) {
+    public void setPortfolioId(int portfolioId) {
         this.portfolioId = portfolioId;
     }
 
